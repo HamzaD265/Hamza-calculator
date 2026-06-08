@@ -22,7 +22,7 @@ body {
 #display_area {
     background-color: aliceblue;
     height: 70px;
-    width: 350px;
+    width: 300px;
     overflow-x: auto;
     overflow-y: auto;
     margin-bottom: 15px;
@@ -45,7 +45,7 @@ body {
     border-radius: 10px;
     margin: 5px;
     background-color: rgb(127, 220, 205);
-    color: #fff;
+    color: #000000;
 }
 .c_row button:hover {
     background-color: rgb(83, 174, 159);
