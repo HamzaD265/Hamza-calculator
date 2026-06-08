@@ -22,7 +22,7 @@ body {
 #display_area {
     background-color: aliceblue;
     height: 70px;
-    width: 300px;
+    width: 350px;
     overflow-x: auto;
     overflow-y: auto;
     margin-bottom: 15px;
