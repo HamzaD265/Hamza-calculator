@@ -47,7 +47,16 @@ body {
     background-color: rgb(127, 220, 205);
     color: #000000;
 }
-.c_row button:hover {
+/* تأثير الضغط المؤقت: يعمل على الموبايل والكمبيوتر أثناء اللمس فقط */
+.c_row button:active {
     background-color: rgb(83, 174, 159);
-    cursor: pointer;
 }
+
+/* تأثير مرور الماوس: يعمل على أجهزة الكمبيوتر فقط ولا يعلق على الموبايل */
+@media (hover: hover) {
+    .c_row button:hover {
+        background-color: rgb(83, 174, 159);
+        cursor: pointer;
+    }
+}
+
